@@ -1,0 +1,958 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contener {
+  max-width: 100%;
+  height: auto;
+  background-color: rgb(245, 255, 251);
+  margin: auto;
+  padding-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  overflow: hidden;
+}
+.contener .navbar {
+  width: 93%;
+  height: 60px;
+  margin: auto;
+  border-radius: 15px;
+  display: flex;
+  gap: 5px;
+}
+.contener .navbar .cha1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 1s;
+}
+.contener .navbar .cha1:hover {
+  background-color: gray;
+  color: aliceblue;
+  box-shadow: 0px 0px 50px;
+}
+.contener .navbar .cha2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 1s;
+}
+.contener .navbar .cha2:hover {
+  background-color: gray;
+  box-shadow: 0px 0px 50px;
+  color: aliceblue;
+}
+.contener .navbar .cha3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 1s;
+}
+.contener .navbar .cha3:hover {
+  background-color: gray;
+  color: aliceblue;
+  box-shadow: 0px 0px 50px;
+}
+.contener .navbar .cha4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 1s;
+}
+.contener .navbar .cha4:hover {
+  background-color: gray;
+  color: aliceblue;
+  box-shadow: 0px 0px 50px;
+}
+.contener .navbar .cha5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 1s;
+}
+.contener .navbar .cha5:hover {
+  background-color: gray;
+  color: aliceblue;
+  box-shadow: 0px 0px 50px;
+}
+.contener .navbar .sing {
+  width: 300px;
+  height: 60px;
+  background-color: red;
+  border-radius: 20px;
+  border: solid 0px;
+  cursor: pointer;
+  color: #fff;
+  transition: all 1s;
+  box-shadow: 0px 0px 50px;
+}
+.contener .navbar .sing:hover {
+  background-color: #fff;
+  color: #000;
+}
+.contener .main {
+  width: 350px;
+  height: 500px;
+  background: red;
+  overflow: hidden;
+  background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/cover;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+  background-color: red;
+  margin: auto;
+  display: none;
+}
+.contener .main #chk {
+  display: none;
+}
+.contener .main .signup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.contener .main .signup label {
+  color: #fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 60px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.contener .main .signup input {
+  width: 65%;
+  height: 30px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.contener .main .signup button {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background-color: brown;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.contener .main .signup button:hover {
+  background-color: rgb(255, 145, 0);
+}
+.contener .java {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.contener .java .box1 {
+  margin: auto;
+  max-width: 84.9%;
+  height: 700px;
+  background-color: #ffffff;
+  border-radius: 50px 50px 0px 0px;
+  display: flex;
+  gap: 20px;
+  z-index: 1;
+  background-color: rgb(249, 221, 201);
+}
+.contener .java .box1 .child {
+  padding: 150px 0px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contener .java .box1 .child .t1 {
+  color: red;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.contener .java .box1 .child .t2 {
+  color: #000;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.contener .java .box1 .child .tug1 {
+  width: 170px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+  transition: all 1s;
+}
+.contener .java .box1 .child .tug1:hover {
+  background-color: red;
+  color: aliceblue;
+  box-shadow: 0px 0px 50px red;
+}
+.contener .java .box1 .rasm {
+  width: 600px;
+  height: 600px;
+  background: none;
+  border-radius: 40px;
+}
+.contener .java .box2 {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  width: 84%;
+  height: 750px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border-radius: 50px 50px 0px 0px;
+  z-index: 1;
+  margin-top: -40px;
+  padding-top: 40px;
+}
+.contener .java .box2 .alohida {
+  display: flex;
+  align-items: center;
+  gap: 390px;
+  margin-left: 70px;
+}
+.contener .java .box2 .alohida .t5 {
+  color: brown;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.contener .java .box2 .alohida .b1 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.contener .java .box2 #carouselExample .carousel-inner #salom .sucun {
+  width: 1180px;
+  height: 500px;
+  background-color: #faefd1;
+  display: flex;
+  gap: 60px;
+  margin: auto;
+  border-radius: 20px;
+}
+.contener .java .box2 #carouselExample .carousel-inner #salom .sucun .ch3 {
+  display: flex;
+  flex-direction: column;
+  gap: 230px;
+  margin: 30px 0px 0px 30px;
+}
+.contener .java .box2 #carouselExample .carousel-inner #salom .sucun .ch3 .t3 {
+  color: rgb(248, 156, 76);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contener .java .box2 #carouselExample .carousel-inner #salom .sucun .ch3 .t4 {
+  color: rgb(248, 156, 76);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contener .java .box2 #carouselExample .carousel-inner .carousel-item .sucun {
+  width: 1180px;
+  height: 500px;
+  background-color: #faefd1;
+  display: flex;
+  gap: 60px;
+  margin: auto;
+  border-radius: 20px;
+}
+.contener .java .box2 #carouselExample .carousel-inner .carousel-item .sucun .ch3 {
+  display: flex;
+  flex-direction: column;
+  gap: 230px;
+  margin: 30px 0px 0px 30px;
+}
+.contener .java .box2 #carouselExample .carousel-inner .carousel-item .sucun .ch3 .t3 {
+  color: rgb(248, 156, 76);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contener .java .box2 #carouselExample .carousel-inner .carousel-item .sucun .ch3 .t4 {
+  color: rgb(248, 156, 76);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contener .java .box3 {
+  margin: auto;
+  width: 84%;
+  height: 780px;
+  background-color: rgb(197, 192, 192);
+  border-radius: 50px 50px 0px 0px;
+  margin-top: -40px;
+  z-index: 1;
+}
+.contener .java .box3 .child1 {
+  display: flex;
+  flex-direction: column;
+  margin: 130px 0px 0px 100px;
+}
+.contener .java .box3 .child1 h2 {
+  color: rgb(247, 158, 94);
+}
+.contener .java .box3 .child1 p {
+  color: rgb(112, 101, 101);
+}
+.contener .java .box3 div .img1 {
+  width: 300px;
+  margin-top: 190px;
+  margin-left: 50px;
+}
+.contener .java .box3 div .img2 {
+  width: 300px;
+  margin: 0px 0px 190px 0px;
+}
+.contener .java .box3 div .img3 {
+  width: 300px;
+  margin: 190px 0px 0px 0px;
+}
+.contener .java .box3 div .img4 {
+  width: 250px;
+  margin: 0px 0px 190px 0px;
+}
+.contener .java .box4 {
+  margin: auto;
+  width: 84.1%;
+  height: 800px;
+  border-radius: 50px 50px 0px 0px;
+  margin-top: -40px;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 70px;
+  padding-top: 120px;
+  padding-left: 20px;
+}
+.contener .java .box4 .child2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contener .java .box4 .child2 .tug2 {
+  width: 340px;
+  height: 60px;
+  background-color: darkgrey;
+  border-radius: 20px;
+  border: 0px;
+  transition: all 1s;
+}
+.contener .java .box4 .child2 .tug2:hover {
+  background-color: white;
+  border: 2px solid red;
+  box-shadow: 0px 0px 30px red;
+}
+.contener .java .box4 .child2 .tug3 {
+  width: 340px;
+  height: 60px;
+  background-color: beige;
+  border-radius: 20px;
+  border: 0px;
+  transition: all 1s;
+}
+.contener .java .box4 .child2 .tug3:hover {
+  background-color: brown;
+  color: aliceblue;
+  box-shadow: 0px 0px 30px rgb(146, 49, 49);
+}
+.contener .java .box4 .child3 .search {
+  width: 450px;
+  height: 40px;
+  border-radius: 13px;
+}
+.contener .java .box4 .child3 .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.contener .java .box4 .child3 .accordion {
+  width: 430px;
+  height: 40px;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background: none;
+}
+.contener .java .box4 .child3 .accordion:after {
+  content: "➕"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.contener .java .box4 .child3 .active:after {
+  content: "➖"; /* Unicode character for "minus" sign (-) */
+}
+.contener .java .box4 h5 {
+  color: gray;
+}
+.contener .java .box5 {
+  margin: auto;
+  width: 84.1%;
+  height: 800px;
+  border-radius: 50px 50px 0px 0px;
+  margin-top: -40px;
+  z-index: 1;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  padding-left: 30px;
+}
+.contener .java .box5 .child4 {
+  display: flex;
+  gap: 600px;
+  align-items: center;
+}
+.contener .java .box5 .child4 h5 {
+  color: gray;
+}
+.contener .java .box5 .swiper {
+  width: 100%;
+  margin: 0 auto;
+}
+.contener .java .box5 .slide-item {
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+}
+.contener .java .box5 .slide-item .vrach {
+  width: 350px;
+}
+.contener .java .box5 .slide-item .swucun {
+  display: flex;
+  flex-direction: column;
+}
+.contener .java .box5 .slide-item .swucun h6 {
+  margin: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.contener .java .box5 .slide-item .swucun p {
+  color: gray;
+  font-size: 13px;
+  margin: auto;
+}
+.contener .java .box6 {
+  margin: auto;
+  width: 84.1%;
+  height: 800px;
+  border-radius: 50px 50px 0px 0px;
+  margin-top: -40px;
+  z-index: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.contener .java .box6 .child4 {
+  display: flex;
+  gap: 600px;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: 30px;
+}
+.contener .java .box6 .child4 h5 {
+  color: gray;
+}
+.contener .java .box6 html,
+.contener .java .box6 body {
+  position: relative;
+  height: 100%;
+}
+.contener .java .box6 body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.contener .java .box6 .swiper {
+  width: 95%;
+  height: 60%;
+  border-radius: 30px;
+}
+.contener .java .box6 .swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  padding-left: 70px;
+  gap: 50px;
+}
+.contener .java .box6 .swiper-slide .swucun2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 30px;
+}
+.contener .java .box6 .swiper-slide .swucun2 p {
+  color: gray;
+}
+.contener .java .box6 .swiper-slide .swucun2 .tug4 {
+  width: 220px;
+  height: 50px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  transition: all 1s;
+  color: gray;
+}
+.contener .java .box6 .swiper-slide .swucun2 .tug4:hover {
+  background-color: #777;
+  border: white;
+  color: white;
+}
+.contener .java .box6 .swiper-slide .swucun2 .tug5 {
+  width: 150px;
+  height: 50px;
+  border: 2px solid red;
+  color: red;
+  border-radius: 20px;
+  transition: all 1s;
+}
+.contener .java .box6 .swiper-slide .swucun2 .tug5:hover {
+  background-color: red;
+  color: white;
+}
+.contener .java .box6 .swiper-slide img {
+  width: 700px;
+}
+.contener .java .box7 {
+  margin: auto;
+  width: 84.1%;
+  height: 800px;
+  border-radius: 50px 50px 0px 0px;
+  margin-top: -40px;
+  z-index: 1;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.contener .java .box7 .child4 {
+  display: flex;
+  gap: 600px;
+  align-items: center;
+  padding-top: 120px;
+}
+.contener .java .box7 .child4 h5 {
+  color: gray;
+}
+.contener .java .box7 .child5 {
+  display: flex;
+  gap: 40px;
+}
+.contener .java .box7 .child5 div .child6 {
+  width: 450px;
+  height: 460px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.contener .java .box7 .child5 div .child6 .ch6 {
+  display: flex;
+  gap: 120px;
+}
+.contener .java .box7 .child5 div .child6 .ch6 .kicki {
+  display: flex;
+  gap: 20px;
+}
+.contener .java .box7 .child5 div .child6 .ch6 .kicki div .t6 {
+  font-weight: bolder;
+}
+.contener .java .box7 .child5 div .child6 .ch6 .kicki div .t7 {
+  color: gray;
+}
+.contener .java .box7 .child5 div .child6 .t8 {
+  font-weight: bolder;
+}
+.contener .java .box8 {
+  margin: auto;
+  width: 84.1%;
+  height: 600px;
+  border-radius: 50px 50px 0px 0px;
+  margin-top: -40px;
+  z-index: 1;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  padding-left: 60px;
+}
+.contener .java .box8 .child8 {
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 250px;
+}
+.contener .java .box8 .child9 {
+  width: 700px;
+  height: 400px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.contener .java .box8 .child9 .inputlar {
+  display: flex;
+  gap: 30px;
+}
+.contener .java .box8 .child9 .cheklar {
+  display: flex;
+  gap: 50px;
+}
+.contener .java .box8 .child9 .butlar {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.contener .java .box8 .child9 .butlar .butlar1 {
+  width: 150px;
+  height: 40px;
+  background-color: red;
+  border: 0;
+  border-radius: 12px;
+}
+.contener .java .box9 {
+  margin: auto;
+  width: 84.1%;
+  height: 900px;
+  border-radius: 50px 50px 0px 0px;
+  margin-top: -40px;
+  z-index: 1;
+  background-color: white;
+  padding-left: 60px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contener .java .box9 .child10 {
+  display: flex;
+  gap: 130px;
+}
+.contener .java .box9 .child10 .butlar2 {
+  display: flex;
+  gap: 10px;
+}
+.contener .java .box9 .child10 .butlar2 .tug6 {
+  width: 170px;
+  height: 40px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.contener .java .box9 .child10 .butlar2 .tug6:hover {
+  background-color: gray;
+  color: aliceblue;
+}
+.contener .java .box9 .child10 .butlar2 .tug7 {
+  width: 120px;
+  height: 40px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.contener .java .box9 .child10 .butlar2 .tug7:hover {
+  background-color: gray;
+  color: aliceblue;
+}
+.contener .java .box9 .child101 {
+  display: flex;
+  gap: 130px;
+}
+.contener .java .box9 .child101 .butlar2 {
+  display: flex;
+  gap: 10px;
+}
+.contener .java .box9 .child101 .butlar2 .tug6 {
+  width: 170px;
+  height: 40px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.contener .java .box9 .child101 .butlar2 .tug6:hover {
+  background-color: gray;
+  color: aliceblue;
+}
+.contener .java .box9 .child101 .butlar2 .tug7 {
+  width: 120px;
+  height: 40px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.contener .java .box9 .child101 .butlar2 .tug7:hover {
+  background-color: gray;
+  color: aliceblue;
+}
+.contener .java .box9 .child11 {
+  display: flex;
+  gap: 290px;
+}
+.contener .java footer {
+  margin: auto;
+  width: 84.1%;
+  height: auto;
+  display: flex;
+  padding-left: 60px;
+  gap: 140px;
+}
+.contener .java footer .ch1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+  color: gray;
+}
+.contener .java footer .child12 {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+.contener .java footer .child13 {
+  display: flex;
+  flex-direction: column;
+  gap: 163px;
+}
+
+@media (max-width: 1200px) {
+  .contener {
+    width: 90%;
+    width: auto;
+    overflow: hidden;
+  }
+  .contener .navbar .cha1 {
+    width: 140px;
+    height: 50px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .contener .navbar .cha1 p {
+    display: none;
+  }
+  .contener .navbar .cha2 {
+    width: 140px;
+    height: 50px;
+  }
+  .contener .navbar .cha3 {
+    width: 140px;
+    height: 50px;
+  }
+  .contener .navbar .cha4 {
+    width: 140px;
+    height: 50px;
+  }
+  .contener .navbar .cha5 {
+    width: 200px;
+    height: 50px;
+  }
+  .contener .navbar .sing {
+    width: 250px;
+    height: 50px;
+  }
+  .contener .java {
+    overflow: hidden;
+    padding-top: 15px;
+  }
+  .contener .java .box1 {
+    width: 100%;
+    height: 1550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contener .java .box1 .child .tug1 {
+    width: 210px;
+    height: 60px;
+  }
+  .contener .java .box1 .rasm {
+    width: 95%;
+    height: 800px;
+  }
+  .contener .java .box2 .alohida {
+    gap: 200px;
+  }
+  .contener .java .box3 div .img4 {
+    display: none;
+  }
+  .contener .java .box4 h5 {
+    display: none;
+  }
+  .contener .java .box5 .child4 {
+    gap: 300px;
+  }
+  .contener .java .box6 {
+    height: auto;
+  }
+  .contener .java .box6 .child4 {
+    gap: 400px;
+  }
+  .contener .java .box6 .swiper {
+    width: 70%;
+    height: 90%;
+  }
+  .contener .java .box6 .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  .contener .java .box6 .swiper-slide .swucun2 {
+    padding-top: 10px;
+  }
+  .contener .java .box6 .swiper-slide img {
+    width: 600px;
+  }
+  .contener .java .box7 {
+    height: 1100px;
+    margin-top: 40px;
+  }
+  .contener .java .box7 .child4 {
+    gap: 400px;
+  }
+  .contener .java .box7 .child5 {
+    justify-content: center;
+  }
+  .contener .java .box7 .child5 h5 {
+    display: none;
+  }
+  .contener .java .box7 .child5 .ucun {
+    display: flex;
+    flex-direction: column;
+  }
+  .contener .java .box8 {
+    justify-content: center;
+  }
+  .contener .java .box8 .child8 {
+    display: none;
+  }
+  .contener .java .box9 {
+    height: auto;
+  }
+  .contener .java .box9 .child101 {
+    display: none;
+  }
+  .contener .java .box9 .hr {
+    display: none;
+  }
+  .contener .java .box9 .child11 {
+    gap: 100px;
+  }
+  .contener .java footer {
+    gap: 300px;
+    display: flex;
+    align-items: center;
+  }
+  .contener .java footer .child12 {
+    display: none;
+  }
+  .contener .java footer .child13 .aaa {
+    display: none;
+  }
+}
+@media (max-width: 1111px) {
+  .contener .navbar .cha2 {
+    display: none;
+  }
+  .contener .java .box2 .alohida {
+    gap: 100px;
+    margin-left: 30;
+  }
+  .contener .java .box2 #carouselExample .carousel-inner #salom .sucun {
+    gap: 10px;
+  }
+  .contener .java .box2 #carouselExample .carousel-inner #salom .sucun .ch3 .t4 {
+    display: none;
+  }
+  .contener .java .box2 #carouselExample .carousel-inner .carousel-item .sucun {
+    gap: 10px;
+  }
+  .contener .java .box2 #carouselExample .carousel-inner .carousel-item .sucun .ch3 .t4 {
+    display: none;
+  }
+  .contener .java .box3 {
+    display: none;
+  }
+  .contener .java .box3 .ch7 .img3 {
+    margin-left: 30px;
+  }
+  .contener .java .box4 {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1020px;
+  }
+  .contener .java .box4 h5 {
+    display: none;
+  }
+  .contener .java .box4 .child2 .tug3 {
+    display: none;
+  }
+  .contener .java .box5 .child4 {
+    gap: 200px;
+  }
+  .contener .java .box9 .child10 {
+    gap: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
